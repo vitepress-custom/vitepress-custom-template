@@ -14,8 +14,3 @@ vitepress-custom init
 npm install
 npm run dev
 ```
-
-<script setup>
-  import {useData} from 'vitepress';
-  import test from "@theme"
-</script>

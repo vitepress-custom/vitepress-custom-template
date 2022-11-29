@@ -26,4 +26,5 @@ npm run dev
 
 [MIT](./license)
 
-## [Repository](
+## Repository
+https://github.com/vitepress-custom
