@@ -4,11 +4,14 @@ import { useData, useRoute } from 'vitepress'
 import { useSidebar, useCloseSidebarOnEscape } from 'vitepress/dist/client/theme-default/composables/sidebar.js'
 import VPSkipLink from 'vitepress/dist/client/theme-default/components/VPSkipLink.vue'
 import VPBackdrop from 'vitepress/dist/client/theme-default/components/VPBackdrop.vue'
-import VPNav from 'vitepress/dist/client/theme-default/components/VPNav.vue'
+
 import VPLocalNav from 'vitepress/dist/client/theme-default/components/VPLocalNav.vue'
 import VPSidebar from 'vitepress/dist/client/theme-default/components/VPSidebar.vue'
-import VPContent from './components/content.vue'
 import VPFooter from 'vitepress/dist/client/theme-default/components/VPFooter.vue'
+
+// 修改过的组件
+import VPContent from './components/content.vue'
+import VPNav from './components/VPNav.vue'
 
 const {
   isOpen: isSidebarOpen,
