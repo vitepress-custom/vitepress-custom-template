@@ -10,7 +10,7 @@ import VPSidebar from 'vitepress/dist/client/theme-default/components/VPSidebar.
 import VPFooter from 'vitepress/dist/client/theme-default/components/VPFooter.vue'
 
 // 修改过的组件
-import VPContent from './components/content.vue'
+import VPContent from './components/VPContent.vue'
 import VPNav from './components/VPNav.vue'
 
 const {

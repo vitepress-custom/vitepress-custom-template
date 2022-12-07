@@ -1,3 +1,7 @@
+---
+title: Getting Started
+---
+
 # Getting Started
 Added some features on the basis of  [vitepress](https://vitepress.vuejs.org)
 
